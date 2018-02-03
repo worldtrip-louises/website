@@ -56,10 +56,10 @@
 	}
 	.nav li {
  		font: inherit;
-  		font-size: 1.2em;
+  		/*font-size: 1.2em;
   		line-height: 40px;
   		height: 40px;
-  		border-bottom: 1px solid #888;
+  		border-bottom: 1px solid #888;*/
 		display: inline-block;
     		margin-right: -4px;
 		}
@@ -69,7 +69,7 @@
 	}
 	.section1 {
 		display: block;
-		background-image:url(images/desert_uyuni.JPG);
+		background-image:url("images/desert_uyuni.JPG");
 		background-repeat:no-repeat;
 		background-position: center center;
 		}
