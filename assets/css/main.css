@@ -50,7 +50,6 @@
 /* first section background image and navigation */
 	.nav ul {
   		list-style: none;
- 		background-color: #444;
   		text-align: right;
   		padding: 0;
   		margin: 0;
@@ -61,12 +60,12 @@
   		line-height: 40px;
   		height: 40px;
   		border-bottom: 1px solid #888;
+		display: inline-block;
+    		margin-right: -4px;
 		}
 	.nav a {
  		text-decoration: none;
-  		color: #fff;
  		display: block;
-  		transition: .3s background-color;
 	}
 	.section1 {
 		display: block;
