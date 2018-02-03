@@ -48,9 +48,6 @@
 	}
 
 /* navigator */
-	.nav {
-		position: absolute;
-	}
 	.nav ul {
   		list-style: none;
   		text-align: right;
