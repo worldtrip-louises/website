@@ -49,6 +49,7 @@
 
 /* first section background image and navigation */
 	.nav ul {
+		position: absolute;
   		list-style: none;
   		text-align: right;
 		display: inline-block;
