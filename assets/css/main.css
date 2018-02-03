@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
 /*
-	Story by HTML5 UP
-	html5up.net | @ajlkn
+	Inspired by html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
@@ -47,6 +46,34 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+
+/* first section background image and navigation */
+	.nav ul {
+  		list-style: none;
+ 		background-color: #444;
+  		text-align: right;
+  		padding: 0;
+  		margin: 0;
+	}
+	.nav li {
+ 		font: inherit;
+  		font-size: 1.2em;
+  		line-height: 40px;
+  		height: 40px;
+  		border-bottom: 1px solid #888;
+		}
+	.nav a {
+ 		text-decoration: none;
+  		color: #fff;
+ 		display: block;
+  		transition: .3s background-color;
+	}
+	.section1 {
+		display: block;
+		background-image:url(images/desert_uyuni.JPG);
+		background-repeat:no-repeat;
+		background-position: center center;
+		}
 
 /* Box Model */
 
