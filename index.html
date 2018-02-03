@@ -57,7 +57,7 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="/images/lotta_cosima_japan.JPG" alt="Lotta and Cosima profile picture" rotate="90"/>
+							<img src="/images/lotta_cosima_japan.JPG" alt="Lotta and Cosima profile picture" data-rotate="90"/>
 						</div>
 					</section>
 
@@ -349,6 +349,19 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		<script>	
+		$('img').each(function() {
+    		var deg = $(this).data('rotate') || 0;
+   		var rotate = 'rotate(' + deg + 'deg)';
+    			$(this).css({ 
+        		'-webkit-transform': rotate,
+        		'-moz-transform': rotate,
+        		'-o-transform': rotate,
+        		'-ms-transform': rotate,
+        		'transform': rotate 
+    			});
+		});
+		</script>
 
 	</body>
 </html>
