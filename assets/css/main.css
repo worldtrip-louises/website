@@ -47,9 +47,11 @@
 		-webkit-text-size-adjust: none;
 	}
 
-/* first section background image and navigation */
-	.nav ul {
+/* navigator */
+	.nav {
 		position: absolute;
+	}
+	.nav ul {
   		list-style: none;
   		text-align: right;
 		display: inline-block;
@@ -63,10 +65,11 @@
   		line-height: 40px;
   		height: 40px;
 		display: inline-block;
-    		margin-right: -4px;
+		margin:0 0 10px 0; 
 		}
 	.nav a {
  		text-decoration: none;
+		text: bold;
  		display: block;
 	}
 
